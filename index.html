@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <nav id="navBar" class="NavBar"> 
+            <a href="#cards" onclick="cerrar()">Portfolio</a>
+            <a href="#About" onclick="cerrar()">About</a> 
+            <a href="#contForm" onclick="cerrar()">Contact</a>  
+        </nav>
+        
+        <div id="menu" class="menu">
+            <button onclick="hamFuntion()"><img id="barClose" src="Pics/Icons/nav-icon.png" alt="image"></button>
+        </div>  
+    
+        <div class="title">
+            <h1 id="title-a">Hey there. I’m Andy.</h1>
+            <h2 id="title-b">I’m a software developer</h2>
+            <p id="title-c">
+                I can help you build a product , feature or website Look 
+                through some of my work and experience! If you like what 
+                you see and have a project you need coded, don’t hesitate 
+                to contact me.
+            </p>
+        </div>
+
+        <ul class="social">
+            <li><a href="" type="icon"><img src="Pics/Icons/twitter.png" alt="19.99px"></a></li>
+            <li><a href="" type="icon"><img src="Pics/Icons/Linkedin icon.png" alt="19.99px"></a></li>
+            <li><a href="" type="icon"><img src="Pics/Icons/medium.png" alt="19.99px"></a></li>
+            <li><a href="" type="icon"><img src="Pics/Icons/github.png" alt="19.99px"></a></li>
+            <li><a href="" type="icon"><img src="Pics/Icons/angellist.png" alt="19.99px"></a></li>
+        </ul>
+
+        <div class="socialButton">
+            <button><img src="Pics/arr.png" width="12px"></button>
+        </div>
+        
+    </section>
+
+    <section class="Works">
+
+        <h1>My Recents Works</h1>
+
+    </section>
+
+    <section id="cards" class="Cards">
+    </section>
+
+    <section id="About" class="About">
+
+        <div>
+            <h1>About me</h1>
+            <p>I can help you build a product , feature or website Look 
+               through some of my work and experience! If you like what 
+               you see and have a project you need coded, don’t hesitate 
+               to contact me.</p>
+            <button>Get my resume</button>   
+        </div>
+        
+    </section>
+
+    <section class="ACards">
+
+        <ul class="ACards-cont">
+            <li><img src="Pics/lang.png" alt=""></li>
+            <li><h1>Languages</h1></li>
+            <ul class="ACards-cont2">
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </ul>
+        
+        <ul class="ACards-cont">
+            <li><img src="Pics/frame.png" alt=""></li>
+            <li><h1>Frameworks</h1></li>
+            <ul class="ACards-cont2">
+                <li>React.js</li>
+                <li>Ruby on Rails</li>
+                <li>RSpec</li>
+                <li>Capybara</li>
+                <li>Selenium</li>
+            </ul>
+        </ul>
+
+        <ul class="ACards-cont">
+            <li><img src="Pics/skills.png" alt=""></li>
+            <li><h1>Skills</h1></li>
+            <ul class="ACards-cont2">
+                <li>Database Management</li>
+                <li>Version Control</li>
+                <li>CLI</li>
+                <li>Web Deveplopment</li>
+                <li>API Design</li>
+            </ul>
+        </ul>
+
+    </section>
+
+    <section id="contForm" class="ContForm">
+
+        <section class="ContForm-cont">
+            <header class="advise">
+                <p>I'm always interested in hearing about new projects, 
+                    so if you'd like to chat please get in touch.</p>
+            </header>
+    
+            <form action="https://formspree.io/f/mbjewkoo" method="post" class="contact">
+                <input name="Name" class="Fullname" type="text" placeholder="Full name" maxlength="30" required>
+                <input id="email" name="Email" class="EmailAddress" type="email" placeholder="Email address" required>
+                <span class="errMess">Please enter your email in all lowercase</span>   
+                <textarea name="Text" type="text" placeholder="Hey I’d like to connect to..." maxlength="500" required></textarea>
+                <button type="submit" class="formButton">Get in touch</button>
+            </form>
+        </section>
+
+        <div class="myEmail">
+            <p>andres_zamorano_@hotmail.com</p>
+        </div>
+        
+    </section>
+
+    <section class="final">
+
+        <div class="social">    
+            <a href="" type="icon"><img src="Pics/Icons/twitter.png" alt="19.99px"></a>
+            <a href="" type="icon"><img src="Pics/Icons/Linkedin icon.png" alt="19.99px"></a>
+            <a href="" type="icon"><img src="Pics/Icons/medium.png" alt="19.99px"></a>
+            <a href="" type="icon"><img src="Pics/Icons/github.png" alt="19.99px"></a>
+            <a href="" type="icon"><img src="Pics/Icons/angellist.png" alt="19.99px"></a>
+        </div>
+
+        <div class="line">
+        </div>
+
+    </section>
+
+    <script src="JS/script.js"></script>
+    <script src="JS/validation.js"></script>
+</body>
+</html>
